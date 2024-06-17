@@ -41,11 +41,11 @@
    ```bash
    pip install -r requirements.txt
    ```
-3. 运行Flask服务, 并在config.py中配置项目地址。
+3. 运行Flask服务, 并在config/config.json中配置项目地址。
    ```bash
    python app.py
    ```
-4. 访问 `http://localhost:5000` 开始使用。
+4. 访问 `http://localhost:5000` 开始使用, 详细接口请参考 `API.md`。
 5. 接口请参照 `router\router.py` 进行查询
 
 ## 注意事项
